@@ -1,0 +1,20 @@
+
+.navbar{
+    background-color: aqua;
+}
+    
+.nav-item.active .nav-link {
+    color: blue; 
+}
+    
+.imagen-navBar{
+    display: block;
+    margin: 0 auto; 
+    width: 50px; 
+    height: auto; 
+    margin-bottom: 5px;
+}
+    
+.navbar-nav .nav-item:last-child .nav-link1{
+    color: rgb(18, 9, 9); 
+}

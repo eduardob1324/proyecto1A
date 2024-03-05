@@ -1,0 +1,38 @@
+<div class="container-degradado">
+    <form >
+      <h1>Registrarse</h1>
+      <img src="../../../assets/imagenes/5087579.png" alt="Imagen de registro" class="imagen-registro">
+      <div class="mb-3">
+          <label  class="form-label">Nombre:</label>
+          <input formControlName="nombre" type="text" class="form-control"  placeholder="Ingresa tu nombre completo.">
+          <!-- <div *ngIf="registroForm.get('nombre')?.invalid && (registroForm.get('nombre')?.dirty || registroForm.get('nombre')?.touched)" class="text-danger">
+            <div *ngIf="registroForm.get('nombre')?.errors?.['required']">El nombre es requerido.</div>
+            <div *ngIf="registroForm.get('nombre')?.errors?.['noContieneNumeros']">El nombre no puede contener números.</div>
+          </div> -->
+        </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email:</label>
+        <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email.">
+        <div id="emailHelp" class="form-text"></div>
+          <!-- <div *ngIf="email.invalid && (email.dirty || email.touched)" class=" text-danger">
+            <div *ngIf="email.errors?.['required']">El email es requerido.</div>
+            <div *ngIf="email.errors?.['email']">El email debe tener un formato valido.</div>
+          </div> -->
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña."></div>
+          <!-- <div *ngIf="password.invalid && (password.dirty || password.touched)" class=" text-danger">
+            <div *ngIf="password.errors?.['required']">La contraseña es requerida.</div>
+          </div> -->
+      <div class="mb-3">
+        <label for="exampleInputPassword2" class="form-label">Confirmar contraseña:</label>
+        <input formControlName="passwordConfirm" type="password" class="form-control" id="exampleInputPassword2" placeholder="confirmar contraseña."></div>
+          <!-- <div *ngIf="passwordConfirm.invalid && (passwordConfirm.dirty || passwordConfirm.touched)" class=" text-danger">
+            <div *ngIf="passwordConfirm.errors?.['required']">La confirmación es requerida.</div>
+          </div> -->
+      <div class="d-grid gap-2">
+          <button type="submit" class="btn btn btn-outline-success" >Registrarse</button>
+      </div>
+    </form>
+  </div>  

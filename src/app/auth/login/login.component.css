@@ -1,0 +1,63 @@
+body, html {
+    height: 100%; /* Asegura que el body y el html ocupen toda la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+.container-degradado {
+    
+    background: linear-gradient(to bottom right, #00ccff, #00ff99);
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    position: fixed; /* Se fija al viewport */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Colócalo detrás del contenido */
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+
+
+form{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.764);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'arial';
+    box-shadow: 8px 13px 37px #000;
+    font-weight: bold;
+
+}
+
+.form-control{
+    background: rgb(246, 250, 255);
+    border: 1px solid rgb(125, 121, 121);
+}
+
+.container-sm {
+    /* text-align: center; */
+    width: 100%; /* Abarca todo el ancho de la pantalla */
+    height: 100%; /* Abarca toda la altura de la pantalla */
+    display: flex; /* Usa un diseño de caja flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+h1{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.imagen-login{
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Establece márgenes automáticos horizontalmente, lo que centra la imagen */
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+    margin-bottom: 5px;
+}
